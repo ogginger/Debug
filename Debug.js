@@ -12,7 +12,7 @@ define([
 		if ( 
 			_.has( Input, "Comparator" ) &&
 			_.has( Input.Comparator, "Object" ) &&
-			Input.Comparator === true
+			Input.Comparator.Object === true
 		) {
 			log("Result: " + JSON.stringify( Input.Result ));
 			log("Expected: " + JSON.stringify( Input.ExpectedOutput ));
