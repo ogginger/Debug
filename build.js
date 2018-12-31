@@ -2,11 +2,8 @@
 /*
 */ 
 ({
-    paths: {
-	"log": "lib/log.min",
-	"underscore": "lib/underscore.min"
-    },
-    exclude: [ "log", "underscore" ],
+    paths: {},
+    exclude: [],
     name: "Debug",
     out: "debug.min.js"
 })
